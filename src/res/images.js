@@ -1,100 +1,59 @@
 
 const images = {
-    login: {
-        ic_user_name: require("res/images/ic_persion.png"),
-        ic_password: require("res/images/ic_password2.png"),
-        ic_login: require("res/images/ic_app.png")
+    logo: {
+        logoWelcome: require('res/images/welcome.png'),
+        logoApp: require('res/images/logo-phuc-an.png'),
+        app_logo_home: require('res/images/app_logo_home.png'),
+    },
+    ic_hidePassword: require('res/images/eye.png'),
+    ic_default: require('res/images/default_icon.png'),
+
+    iconApp: {
+        ic_home: require('res/images/Icon/ic_home.png'),
+        ic_discount: require('res/images/Icon/ic_discount.png'),
+        ic_notify: require('res/images/Icon/ic_notification.png'),
+        ic_profile: require('res/images/Icon/ic_profile.png'),
+        ic_cart: require('res/images/Icon/ic_cart.png'),
+        ic_back: require('res/images/Icon/ic_back.png'),
+        ic_add: require('res/images/Icon/ic_add.png'),
+        ic_minus: require('res/images/Icon/ic_minus.png'),
+        ic_search: require('res/images/Icon/ic_search.png'),
+        ic_circle_add: require('res/images/Icon/ic_add_circle.png'),
+        ic_circle_minus: require('res/images/Icon/ic_minus_circle.png'),
+        ic_shop: require('res/images/Icon/ic_shop.png'),
+        ic_address: require('res/images/Icon/ic_address.png'),
+        ic_congratulation: require('res/images/Icon/ic_checked.png'),
+        ic_arrow_right: require('res/images/Icon/ic_arrow_right.png'),
+        ic_news: require('res/images/Icon/ic_news.png'),
+        ic_edit: require('res/images/Icon/ic_edit.png'),
     },
 
-    bottomBar: {
-        ic_home: require("res/images/ic_home.png"),
-        ic_discount: require("res/images/ic_km2.png"),
-        ic_profile: require('res/images/ic_persional.png'),
-        ic_rotation: require("res/images/ic_vq.png")
+    profile_item: {
+        ic_detail_profile: require('res/images/Icon/Profile/ic_detail_profile.png'),
+        ic_address: require('res/images/Icon/Profile/ic_address.png'),
+        ic_birthday: require('res/images/Icon/Profile/ic_birthday.png'),
+        ic_change_pw: require('res/images/Icon/Profile/ic_change_pw.png'),
+        ic_history_order: require('res/images/Icon/Profile/ic_history_order.png'),
+        ic_logout: require('res/images/Icon/Profile/ic_logout.png'),
+        ic_member_card: require('res/images/Icon/Profile/ic_member_card.png'),
+        ic_phone: require('res/images/Icon/Profile/ic_phone.png'),
+        ic_point: require('res/images/Icon/Profile/ic_point.png'),
+        ic_coin: require('res/images/Icon/Profile/ic_coin.png'),
+        ic_camera: require('res/images/Icon/Profile/ic_camera.png'),
     },
 
-    profile: {
-        ic_infor: require("res/images/ic_infor.png"),
-        ic_my_bill: require("res/images/ic_donhang.png"),
-        // ic_address:require("res/images")
-        ic_voucher: require("res/images/vourcher_new.png"),
-        ic_contact: require("res/images/ic_contact.png"),
-        ic_change_password: require("res/images/ic_change_password.png"),
-        ic_right: require("res/images/ic_right.png"),
-        ic_avatar: require("res/images/avatar.png"),
-        bg: require("res/images/bg.png"),
-        //hieenf vu
-        ic_order:require("res/images/order.png"),
-        ic_address_recevice: require("res/images/address_recevice.png"),
-        ic_store_contact: require("res/images/message.png"),
-        ic_change_pass: require("res/images/lock.png"),
-    },
-
-    headerCustom: {
-        ic_app2: require("res/images/ic_app2.png"),
-        ic_search: require("res/images/ic_serach.png"),
-        ic_list_10: require("res/images/ic_list_10.png"),
-        ic_notifi: require("res/images/ic_notifi.png"),
-        ic_back: require("res/images/ic_back.png"),
-        ic_close: require("res/images/ic_dong.png")
-    },
-
-    home: {
-        fab_call: require("res/images/fab_call.png")
-    },
-
-    discount: {
-        ic_next: require("res/images/ic_next.png"),
-        ic_pre: require("res/images/ic_pre2.png"),
-        img_discount: require("res/images/image_discount.png")
-    },
-
-    headerKmh: {
-        ic_kmh: require("res/images/ic_kmh2.png"),
-        ic_backkmh: require("res/images/ic_backkmh.png")
-    },
-
-    detailProfile: {
-        ic_df_bd: require("res/images/ic_df_bd.png"),
-        ic_df_email: require("res/images/ic_df_email.png"),
-        ic_df_name: require("res/images/ic_df_name.png"),
-        ic_df_phone: require("res/images/ic_df_phone.png")
-    },
-
-    detailProduct: {
-        image_fake: require("res/images/image_fake.png"),
-        ic_right: require("res/images/ic_l.png"),
-        ic_giohang: require("res/images/giohang.png"),
-        none_data: require("res/images/none_data.png")
-    },
-
-    contact_screen: {
-        ic_zalo: require("res/images/logozalo.png"),
-        ic_facebook: require("res/images/logofacebook.png"),
-        ic_zalo_circle: require("res/images/icon_zalo_circle.png"),
-        ic_message: require("res/images/icon_message.png"),
-    },
-
-    error: {
-        img_error: require("res/images/batlogin.jpg"),
-        img_outofstock: require("res/images/outofstock.png")
-    },
-
-    cart_screen: {
-        image_fake: require("res/images/imagefakep.png"),
-        ic_cong: require("res/images/cong.png"),
-        ic_tru: require("res/images/tru.png"),
-        ic_delete: require("res/images/delete.png"),
-        ic_close: require("res/images/close.png")
-    },
-
-    // voucher: {
-    //     no_voucher: require("res/images/novoucher.png")
-    // },
-
-    detail_product: {
-        none_data: require("res/images/none_data.png")
+    defaultImage: {
+        img_product: require('res/images/product1.png'),
+        img_discount: require('res/images/discount1.png'),
+        img_detailProduct: require('res/images/detail_image.png'),
+        img_avatar: require('res/images/default_avatar.png'),
+        img_thitga: require('res/images/ic_ga.jpg'),
+        img_hoaqua: require('res/images/ic_hoaqua.jpg'),
+        img_ca: require('res/images/img_ca.jpg'),
+        img_thitlon: require('res/images/img_thit.jpg'),
+        img_raucu: require('res/images/ic_raucu.jpg'),
+        img_tom: require('res/images/img_tom.jpg'),
     }
 }
 
-export default images;
+export default images

@@ -12,7 +12,7 @@ export default class PizzaTranslator extends Component{
         <View style={{padding: 10}}>
             <TextInput
             style={{height: 40}}
-            placeholder="Type here to translate!"
+            placeholder="Type here to translatea!"
             onChangeText={(text) => this.setState({text})}
             />
             <Text style={{padding: 10, fontSize: 42}}>

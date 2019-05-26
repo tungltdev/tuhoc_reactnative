@@ -3,13 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "react-devtools": "react-devtools",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "android": "react-native run-android",
-    "test": "jest"
+    "test": "jest",
+    "build": "cd android && ./gradlew assembleRelease "
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.4"
+    "react-native": "0.59.4",
+    "react-navigation": "^3.0.5",
+    "react-native-gesture-handler": "^1.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
